@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 import re
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 ACCOUNT_SID = os.environ.get('TWILIO_ACCOUNT_SID')
 AUTH_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN')
